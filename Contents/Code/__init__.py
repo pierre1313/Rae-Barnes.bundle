@@ -8,8 +8,8 @@ def Start():
   Plugin.AddPrefixHandler(PLUGIN_PREFIX, MainMenu, "Rae Barnes", "icon-default.png", "art-default.jpg")
   Plugin.AddViewGroup("Pictures", viewMode="Pictures", mediaType="photos")
   Plugin.AddViewGroup("Details", viewMode="InfoList", mediaType="items")
-  MediaContainer.art = "art-default.jpg"
-  DirectoryItem.thumb = "icon-default.png"
+  MediaContainer.art = R("art-default.jpg")
+  DirectoryItem.thumb = R("icon-default.png")
 
 ####################################################################################################
 def MainMenu():
